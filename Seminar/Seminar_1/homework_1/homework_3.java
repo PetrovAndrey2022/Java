@@ -35,7 +35,8 @@ public class homework_3 {
             default:
                 System.out.println("Не корректна введена операция. Повторите ввод.");
                 result = calc(number1, number2, getOperation());//рекурсия
-        }
+        }    
+        
         return result;
     }
 
